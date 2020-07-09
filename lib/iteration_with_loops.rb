@@ -11,12 +11,12 @@ array_integers = [
   while row_index < array_integers.length do
     element_index = 0
     even_values = 0
-    while element_index < array_integers.length do
+    while element_index < array_integers[row_index].length do
       p array_integers[row_index][element_index]
       element_index += 1
     end
+    row_index += 1
   end
-  row_index += 1
 end 
 
 array_integers = [
