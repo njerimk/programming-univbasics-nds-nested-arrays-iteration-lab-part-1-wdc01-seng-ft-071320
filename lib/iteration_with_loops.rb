@@ -20,7 +20,7 @@ array_integers = [
     end
     row_index += 1
   end
-end 
+
 
 array_integers = [
   [10, 15, 24],
