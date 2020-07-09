@@ -3,8 +3,8 @@ def find_even_values(src)
   #
   # Output all even values in each nested array
 src = [
-  [10, 15, 24],
-  [20, 24, 19],
+  [10, 14, 24],
+  [20, 24, 18],
   [4, 6, 9]
   ]
  row_index = 0
