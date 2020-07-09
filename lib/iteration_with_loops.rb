@@ -14,6 +14,8 @@ array_integers = [
     while element_index < array_integers[row_index].length do
       p array_integers[row_index][element_index]
       element_index += 1
+      if array_integers[row_index][element_index] % 2 = 0
+        p array_integers[row_index][element_index]
     end
     row_index += 1
   end
