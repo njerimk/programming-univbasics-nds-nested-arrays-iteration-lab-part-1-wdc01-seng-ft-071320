@@ -12,7 +12,7 @@ src = [
     element_index = 0
     even_values = 2
     while element_index < src[row_index].count do
-      p array_integers[row_index][element_index]
+      p src[row_index][element_index]
         if src[row_index][element_index].even?
           p src[row_index][element_index]
       end
