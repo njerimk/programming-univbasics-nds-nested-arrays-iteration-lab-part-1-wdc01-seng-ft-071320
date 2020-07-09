@@ -13,7 +13,10 @@ array_integers = [
     even_values = 2
     while element_index < array_integers[row_index].length do
       p array_integers[row_index][element_index]
-      if array_integers[row_index][element_index] 
+        if array_integers[row_index][element_index] % even_values == 0 do
+          p array_integers[row_index][element_index]
+        else 
+      end
       element_index += 1
     end
     row_index += 1
